@@ -1,0 +1,21 @@
+{
+  "name": "archive-twitter-likes",
+  "version": "0.0.1",
+  "main": "bin",
+  "files": ["bin"],
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.13.0",
+    "dotenv": "^4.0.0",
+    "fs-extra": "^5.0.0",
+    "ndjson": "^1.5.0",
+    "twitter": "^1.7.1"
+  },
+  "bin": {
+    "archive-twitter-likes": "bin/fetch.js"
+  },
+  "scripts": {
+    "start": "node bin/fetch.js"
+  }
+}
